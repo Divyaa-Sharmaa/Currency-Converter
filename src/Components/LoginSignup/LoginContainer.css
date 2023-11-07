@@ -1,0 +1,133 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 500px;
+    height: 95vh;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    background: #ffffff80;
+    padding-bottom: 12px;
+    border-radius: 40px;
+
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.text{
+    color: rgb(95, 0, 139);
+    font-size: 48px;
+    font-weight: 350;
+}
+
+.underline{
+    width: 61px;
+    height: 6px;
+    background: rgb(95, 0, 139);
+    border-radius: 9px;
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 380px;
+    height: 80px;
+    background: #b1a6a65d;
+    border-radius: 40px; 
+}
+
+.input img{
+    margin: 0px 30px;
+}
+
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: rgb(255, 240, 254);
+    font-size: 19px;
+}
+
+.forgot-password{
+    padding-left: 62px;
+    margin-top: 27px;
+    color: rgb(95, 0, 139);
+    font-size: 18px;
+}
+
+.forgot-password span{
+    color: #4c00b4;
+    cursor: pointer;
+}
+
+.submitContainer {
+    display: table-column;
+    gap: 30px;
+    margin: 20px auto;
+    padding-left: 75px;
+    /* padding-right: 54px; */
+}
+
+.submit{
+    width: 100px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eeebf2;
+    background: rgb(95, 0, 139);
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 450;
+    cursor: pointer;   
+}
+
+.gray{
+    color: #EAEAEA;
+    background: #ffffff80;
+}
+
+.submitContainer span{
+    cursor: pointer;
+    color: rgb(95, 0, 139);
+
+}
+
+p .sign-inn{
+    padding-left: 22px;
+    margin-top: 27px;
+    align-items: center;
+
+}
+
+p .sign-upp{
+    padding-right: 32px;
+    margin-top: auto;
+    padding-top: 12px;
+}
+
+.submitContainer .google_login{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: left;
+    padding-top: 56px;
+    border-radius: 50%;
+}
