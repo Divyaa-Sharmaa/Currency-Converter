@@ -97,6 +97,7 @@
     height: 40px;
     background: #b1a6a65d;
     border-radius: 40px; 
+    margin-bottom: 30px;
 }
 
 .signupInputs .input{
@@ -105,7 +106,29 @@
     width: 380px;
     height: 40px;
     background: rgb(208, 187, 219);
-    border-radius: 40px; 
+    border-radius: 40px;
+    margin-bottom: 16px; 
+}
+
+.error{
+    color: rgb(95, 0, 139);
+    white-space: nowrap;
+    /* align-items: center; */
+    padding: 0px;
+    margin-top: -3px;
+    margin-bottom: 2px;
+    margin-left: 12px;
+}
+
+.signError{
+    color: rgb(95, 0, 139);
+    max-width: 100%;
+    word-wrap: break-word;
+    display: inline;
+    padding: 0px;
+    margin-top: -3px;
+    margin-bottom: 2px;
+    margin-left: 10px;
 }
 
 .loginInput input{
@@ -116,6 +139,7 @@
     outline: none;
     color: black;
     font-size: 19px;
+    /* margin-bottom: 20px; */
 }
 
 .loginInput img{
@@ -201,7 +225,7 @@
     cursor: pointer;
     color: rgb(95, 0, 139);
     padding: 5px;
-    margin-top: 5px;
+    margin-top: 0px;
     color: black;
     text-align: center;
 }
@@ -225,4 +249,5 @@ strong{
     cursor: pointer;
     color: rgb(95, 0, 139); 
 }
+
 

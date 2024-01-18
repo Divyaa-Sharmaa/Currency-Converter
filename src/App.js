@@ -3,6 +3,7 @@ import {Routes,Route} from 'react-router-dom';
 
 import './Components/LoginSignup/LoginSignup.css' ;
 import './Components/CurrConverter/CurrencyConverterr.css' ;
+import './Components/History/CC_History.css';
 import './App.css';
 
 import {LoginSignup} from './Components/LoginSignup/LoginSignup'
